@@ -3,3 +3,8 @@ C:\Users\Pedro\Documents\Visual Studio 2015\Projects\RUReady\DTOs\bin\Debug\DTOs
 C:\Users\Pedro\Documents\Visual Studio 2015\Projects\RUReady\DTOs\obj\Debug\DTOs.csprojResolveAssemblyReference.cache
 C:\Users\Pedro\Documents\Visual Studio 2015\Projects\RUReady\DTOs\obj\Debug\DTOs.dll
 C:\Users\Pedro\Documents\Visual Studio 2015\Projects\RUReady\DTOs\obj\Debug\DTOs.pdb
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\DTOs\bin\Debug\DTOs.dll
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\DTOs\bin\Debug\DTOs.pdb
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\DTOs\obj\Debug\DTOs.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\DTOs\obj\Debug\DTOs.dll
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\DTOs\obj\Debug\DTOs.pdb

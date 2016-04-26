@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\DareController.cs" />
     <Compile Include="Controllers\ResponseController.cs" />
     <Compile Include="Global.asax.cs">

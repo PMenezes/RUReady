@@ -11,5 +11,6 @@ namespace RUReadyAPI.Models
 
         #region References
         public ICollection<Dare> Dares { get; set; }
+        #endregion
     }
 }               

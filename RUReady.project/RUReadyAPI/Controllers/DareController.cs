@@ -38,21 +38,27 @@ namespace RUReadyAPI.Controllers
         }
 
         // POST: api/Dare
-        public IHttpActionResult Post([FromBody]string value)
+        public IHttpActionResult Post(Dare item)
         {
-            return InternalServerError();
-        }
+            if (item == null) return BadRequest("Dare must be defined");
+            IMapper mapper = config.CreateMapper();
 
-        // PUT: api/Dare/5
-        public IHttpActionResult Put(int id, [FromBody]string value)
-        {
-            return InternalServerError();
+            DareDTO dareDTO = service.Insert(mapper.Map<DareDTO>(item));
+
+            if (dareDTO == null) return InternalServerError();
+            return Ok(mapper.Map<Dare>(dareDTO));
         }
 
         // DELETE: api/Dare/5
-        public IHttpActionResult Delete(int id)
+        public IHttpActionResult Delete(Guid id)
         {
-            return InternalServerError();
+            if (id == null) return BadRequest("Dare ID must be defined");
+            IMapper mapper = config.CreateMapper();
+
+            bool res = service.Delete(new DareDTO { Key = id });
+
+            if (res) return Ok();
+            else return InternalServerError();
         }
     }
 }

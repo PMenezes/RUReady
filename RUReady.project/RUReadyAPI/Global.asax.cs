@@ -1,5 +1,4 @@
-﻿using RUReadyAPI.Configs;
-using System.Web.Http;
+﻿using System.Web.Http;
 
 namespace RUReadyAPI
 {

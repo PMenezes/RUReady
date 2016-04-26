@@ -38,21 +38,27 @@ namespace RUReadyAPI.Controllers
         }
 
         // POST: api/Response
-        public IHttpActionResult Post([FromBody]string value)
+        public IHttpActionResult Post(Response item)
         {
-            return InternalServerError();
-        }
+            if (item == null) return BadRequest("Response must be defined");
+            IMapper mapper = config.CreateMapper();
+            
+            ResponseDTO responseDTO = service.Insert(mapper.Map<ResponseDTO>(item));
 
-        // PUT: api/Response/5
-        public IHttpActionResult Put(int id, [FromBody]string value)
-        {
-            return InternalServerError();
+            if(responseDTO == null) return InternalServerError();
+            return Ok(mapper.Map<Response>(responseDTO));
         }
 
         // DELETE: api/Response/5
-        public IHttpActionResult Delete(int id)
+        public IHttpActionResult Delete(Guid id)
         {
-            return InternalServerError();
+            if (id == null) return BadRequest("Response ID must be defined");
+            IMapper mapper = config.CreateMapper();
+
+            bool res = service.Delete(new ResponseDTO { Key = id });
+
+            if (res) return Ok();
+            else return InternalServerError();
         }
     }
 }

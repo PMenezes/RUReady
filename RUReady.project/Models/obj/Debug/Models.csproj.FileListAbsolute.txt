@@ -3,3 +3,8 @@ C:\Users\Pedro\Documents\Visual Studio 2015\Projects\RUReady\Models\bin\Debug\Mo
 C:\Users\Pedro\Documents\Visual Studio 2015\Projects\RUReady\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 C:\Users\Pedro\Documents\Visual Studio 2015\Projects\RUReady\Models\obj\Debug\Models.dll
 C:\Users\Pedro\Documents\Visual Studio 2015\Projects\RUReady\Models\obj\Debug\Models.pdb
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\Models\bin\Debug\Models.dll
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\Models\bin\Debug\Models.pdb
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\Models\obj\Debug\Models.dll
+C:\Users\Pedro\Documents\Work\RUReady\RUReady.project\Models\obj\Debug\Models.pdb
